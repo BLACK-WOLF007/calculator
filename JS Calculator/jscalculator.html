@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<title>JSCalculator</title>
+
+<head>
+  
+  <meta charset="UTF-8">
+ 
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+   <link rel="stylesheet" href="jscalculator.css">
+
+     <link rel="icon" href="C:\Users\FAUZAN\Desktop\NEW WEBSITE\Calculator\calculator.png">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+ 
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat+Alternates:wght@300&family=Passions+Conflict&family=Poppins:wght@200&display=swap" rel="stylesheet"> 
+  
+</head>
+
+
+<body>
+  
+   <form name = "form1">
+  <div class="calculator">
+    
+    <div class="name">
+            calculate
+
+        </div>
+
+      
+  <div class="input-1">
+    
+        <input type="text"  name = "answer">
+    
+        <input type="text"  id="in-2" style="height: 50px; ">
+
+        </div>
+
+      
+  <div class="row1">
+  
+          
+        
+        <input type = "button" id="e"value = "e" onclick = "form1.answer.value += 'e' ">
+      
+          <input type = "button" value = "%" onclick = "form1.answer.value += '%' ">             
+           <input type = "button" value = "sin" onclick = "form1.answer.value += 'sin' ">
+      
+          <input type = "button" id="deg" value = "deg" onclick = "form1.answer.value += 'deg' ">      
+          
+  </div>
+
+       
+   <div class="row2">
+ 
+           
+     
+     <input type = "button" id="c1" value = "c" onclick = "form1.answer.value = ' ' " >
+          
+      <input type = "button" value = "(" onclick = "form1.answer.value += '(' ">
+               <input type = "button" value = ")" onclick = "form1.answer.value +=')' ">
+             
+    <input type = "button" id="sl" value = "/" onclick = "form1.answer.value += '/' ">
+
+            
+       </div>
+
+ 
+  
+     <div class="row3">
+ 
+           
+        
+        <input type = "button" id="seven" value = "7" onclick = "form1.answer.value += '7' ">               
+
+ <input type = "button" id="8" value = "8" onclick = "form1.answer.value += '8' "> 
+               <input type = "button" id="9" value = "9" onclick = "form1.answer.value += '9' ">              <input type = "button" id="X" value = "X" onclick = "form1.answer.value += '*' ">
+            
+
+ 
+       </div>
+
+ 
+       <div class="row4">
+ 
+                         <input type = "button" id="four" value = "4" onclick = "form1.answer.value += '4' ">
+              
+  <input type = "button" value = "5" onclick = "form1.answer.value += '5' ">
+                <input type = "button"  value = "6" onclick = "form1.answer.value += '6' ">
+                <input type = "button" id="minus" value = "-" onclick = "form1.answer.value += '-' ">                  </div>
+
+      
+
+
+  <div class="row5">
+  
+          
+                <input type = "button" id="one" value = "1" onclick = "form1.answer.value += '1' ">                <input type = "button"  value = "2" onclick = "form1.answer.value += '2' ">           
+     <input type = "button"  value = "3" onclick = "form1.answer.value += '3' ">
+                <input type = "button" id="plus" value = "+" onclick = "form1.answer.value += '+' ">            
+
+        </div>
+
+      
+
+  <div class="row6">
+     
+       
+                <input type = "button" id="zero" value = "0" onclick = "form1.answer.value += '0' ">                <input type = "button" id="doublezero"  value = "00" onclick = "form1.answer.value += '00' ">                <input type = "button"  value = "." onclick = "form1.answer.value += '.' ">
+               <input type = "button" id="equal" value = "=" onclick = "form1.answer.value = eval(form1.answer.value) ">              
+    </div>
+
+
+ 
+
+<div class="logo"> Fauzan Ali</div> 
+ </div>
+  
+<div class="vertical">Calculator App</div>
+</form>
+  
+</body>
+
+</html>
